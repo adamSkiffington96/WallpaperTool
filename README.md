@@ -17,15 +17,27 @@ A desktop space sim with an asteroid minigame and a field of stars for effect
 - Cross platform
 
 
-## Snippets
+## <a name="snippets">🕸️ Snippets</a>
 
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
+<details>
+<summary><code>constants.js</code></summary>
 ```
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+```
+</details>
 
 
 ## Optimizations

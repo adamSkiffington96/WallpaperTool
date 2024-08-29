@@ -1,7 +1,7 @@
 
-# Project Title
+# Desktop Space Simulator
 
-A brief description of what this project does and who it's for
+A desktop space sim with an asteroid minigame and a field of stars for effect
 
 
 ## Screenshots

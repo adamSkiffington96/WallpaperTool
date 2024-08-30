@@ -1,6 +1,7 @@
 
 # Desktop Space Simulator
 
+A space sim you can run as a desktop background. Use the windows marquee tool to blast apart asteroids!
 
 ![App Screenshot](https://i.imgur.com/MQMl44B.jpeg)
 ![App Screenshot](https://i.imgur.com/8itZUVd.png)
@@ -9,10 +10,11 @@
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Stars are attracted to your mouse
+- Break asteroids by highlighting them
+- Shooting stars
+- Randomized star color and size
+- Nebula
 
 
 ## Snippets
@@ -861,10 +863,10 @@ public class SelectorGame : MonoBehaviour
 
 ## Optimizations
 
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
+- Stars are release once they travel too far away from their origin
+- Code is generally optimized to be able to run on a persons desktop without becoming resource-intensive too quick
 
 
-## Demo
 
-Insert gif or link to demo
+
 

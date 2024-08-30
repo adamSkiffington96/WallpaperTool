@@ -1,12 +1,12 @@
 
 # Desktop Space Simulator
 
-A desktop space sim with an asteroid minigame and a field of stars for effect
-
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://i.imgur.com/MQMl44B.jpeg)
+![App Screenshot](https://i.imgur.com/8itZUVd.png)
+![App Screenshot](https://i.imgur.com/sY9lrTR.png)
 
 
 ## Features

@@ -2,9 +2,6 @@
 # Desktop Space Simulator
 
 
-
-## Screenshots
-
 ![App Screenshot](https://i.imgur.com/MQMl44B.jpeg)
 ![App Screenshot](https://i.imgur.com/8itZUVd.png)
 ![App Screenshot](https://i.imgur.com/sY9lrTR.png)

@@ -149,77 +149,10 @@ private void GravityWell()
 </details>
 
 <details>
-<summary><code>SelectorGame.cs</code></summary>
+<summary><code>Check Boundaries</code></summary>
 
 ```
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEngine;
-
-public class SelectorGame : MonoBehaviour
-{
-    public GameObject UICorner0;
-    public GameObject UICorner1;
-
-    public Vector2 cornerPosition0 = Vector2.zero;
-    public Vector2 cornerPosition1 = Vector2.zero;
-
-    public GameObject alienParent;
-
-    public GameObject AlienObject0;
-    public GameObject AlienObject1;
-    public GameObject AlienObject2;
-
-    private Material alienMat0;
-    private Material alienMat1;
-    private Material alienMat2;
-    //public Material AlienMaterial;
-
-    public Transform AsteroidParent;
-
-    private GenerateAsteroids AsteroidSystem;
-
-    public bool showDebugCircles = false;
-
-
-    private void Start()
-    {
-        AsteroidSystem = GetComponent<GenerateAsteroids>();
-
-        alienMat0 = AlienObject0.GetComponent<Renderer>().material;
-        alienMat1 = AlienObject1.GetComponent<Renderer>().material;
-        alienMat2 = AlienObject2.GetComponent<Renderer>().material;
-    }
-
-    private void Update()
-    {
-        Vector3 mousePos = Input.mousePosition;
-
-        if(Input.GetMouseButtonDown(0)) {
-            cornerPosition0 = new Vector2(mousePos.x, mousePos.y);
-
-            if(showDebugCircles ) {
-                UICorner0.transform.position = cornerPosition0;
-            }
-        }
-        if(Input.GetMouseButton(0)) {
-            cornerPosition1 = new Vector2(mousePos.x, mousePos.y);
-
-            if(showDebugCircles) {
-                UICorner1.transform.position = cornerPosition1;
-            }
-        }
-
-        if (Input.GetMouseButtonUp(0)) {
-            cornerPosition1 = new Vector2(mousePos.x, mousePos.y);
-
-            CheckBounds();
-        }
-    }
-
-
-    private void CheckBounds()
+private void CheckBounds()
     {
         // Check if any asteroid is within our marquee bounds, and explode it if so
 
@@ -253,7 +186,6 @@ public class SelectorGame : MonoBehaviour
             }
         }
     }
-}
 
 ```
 </details>
